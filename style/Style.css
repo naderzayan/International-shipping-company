@@ -1,0 +1,306 @@
+nav {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #00263b;
+}
+nav h5 {
+    color: #fff;
+}
+.menu_icon {
+    font-size: 30px;
+    display: none;
+}
+nav ul {
+    display: flex;
+    gap: 3em;
+}
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    color: orange;
+}
+
+.header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/HeaderCover.jpg);
+    height: 100vh;
+    background-size: cover;
+    object-fit: cover;
+    padding-left: 2em;
+    padding-top: 5em;
+    color: #fff;
+    font-size: xx-large;
+}
+.header h1 {
+    font-size: 80px;
+}
+.btn-warning {
+    color: white;
+}
+
+.title_card h2 {
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+.main-crds{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    background: slategrey;
+    padding: 1em 1em 1em 1em;
+}
+.crd {
+    flex-grow: 1;
+    flex-basis: 200px;
+    background: #fff;
+    padding: 1em 1em 1em 1em;
+    border-radius: 1em;
+}
+.more {
+    cursor: pointer;
+}
+
+.aboutUs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5em;
+    padding: 3em 3em 3em 3em;
+}
+.aboutUs_ditals{
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+.aboutUs_img {
+    height: 500px;
+    width: 600px;
+    border-radius: 1em;
+}
+
+.ComAdvantages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/logistics.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+.item {
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+.ComAdvantages i {
+    cursor: pointer;
+}
+
+.whatSay{
+    height: 50vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/meetings-1.jpg);
+    background-size: cover;
+    color: #fff;
+    padding: 3em 3em;
+    margin: 1em 1em;
+    border-radius: 1em;
+}
+.thaySay {
+    background-color: #fff;
+    color: black;
+    justify-content: center;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+.Partners h3 {
+    text-align: center;
+    padding-top: 2em;
+}
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-top: 2.5em;
+    justify-content: center;
+    align-content: center;
+    padding: 2em 2em 2em 2em;
+}
+
+.Request h2 {
+    text-align: center;
+    padding-top: 2em;
+}
+.Request {
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/Industry\ Outlook\ and\ Establishment.jpeg);
+    background-size: cover;
+    color: #fff;
+    height: 50vh;
+}
+.RequestDetails {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.RequestDetails input {
+    border-radius: 1em;
+    height: 3em;
+    padding-inline: 1em;
+    height: 2.5em;
+}
+
+footer {
+    background-color: #00263b;
+    color: #fff;
+    display: flex;
+    gap: 2em;
+    padding: 3em;
+    padding-top: 3em;
+}
+.main_footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_div {
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+.locat {
+    display: flex;
+    gap: 1em;
+}
+.phone {
+    display: flex;
+    gap: 1em;
+}
+.mail {
+    display: flex;
+    gap: 1em;
+}
+footer input {
+    border-radius: 1em;
+    height: 3em;
+    padding-inline: 1em;
+}
+
+@media (max-width: 768px) {
+    nav ul
+    {
+        position: absolute;
+        height: 20vh;
+        top: 50px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #00263b;
+        gap: 1em;
+        overflow: hidden;
+    }
+    .menu_icon {
+        display: block;
+        cursor: pointer;
+    }
+}
+@media (max-width: 480px) {
+    nav ul {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #00263b;
+        gap: 0;
+        overflow: hidden;
+            }
+    .menu_icon {
+        display: block;
+        cursor: pointer;
+                }
+    }
+
+@media (max-width: 768px) {
+    .header
+    {
+    height: 50vh;
+    background-size: cover;
+    object-fit: cover;
+    padding-left: 2em;
+    padding-top: 5em;
+    padding-bottom: 2em;
+    font-size: medium;  
+    }
+    .header h1 {
+    font-size: 30px;
+        }
+}
+@media (max-width: 480px) {
+    .header {
+    height: 50vh;
+    background-size: cover;
+    object-fit: cover;
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: small;  
+    }
+    .header h1 {
+    font-size: 30px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .aboutUs
+            {
+            display: flex;
+            gap: 2em;
+            padding: 1em;
+            padding-top: 3em;
+            padding-bottom: 3em;
+            justify-content: center;
+            }
+            .aboutUs_img {
+                height: 400px;
+                width: 400px;
+            }
+    }
+    @media (max-width: 480px) {
+        .aboutUs {
+            display: flex;
+            gap: 2em;
+            padding: 1em;
+            padding-top: 3em;
+            padding-bottom: 3em;
+            justify-content: center;
+        }
+        .aboutUs_img {
+            height: 300px;
+            width: 380px;
+        }
+    }
+
+@media (max-width: 768px) {
+    .thaySay
+        {
+            gap: 2em;
+            justify-content: center;
+            padding: .5em;
+            font-size: smaller;
+        }
+}
+@media (max-width: 480px) {
+    .thaySay {
+        gap: 1em;
+        justify-content: center;
+        padding: .5em;
+        font-size: smaller;
+    }
+}
